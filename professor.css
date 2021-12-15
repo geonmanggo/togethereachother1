@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+:root {
+    --main-blue: #192788;
+    --yellow: #F5B83D;
+    --sub-blue: #2550A9;
+    --gray1:#333333;
+    --gray2:#454545;
+    --gray3:#787878;
+    --gray4:#8c8c8c;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+body{
+    background:linear-gradient(to top, #F3F3F3 69.5%, #ffffff 20%);
+}
+.back{
+    color:var(--gray1);
+}
+
+a {
+    text-decoration: none;
+}
+
+header{
+    margin: 80px 80px;
+}
+.button{
+    display: flex;
+    justify-content: space-between;
+
+}
+h1{
+    text-align: center;
+    border-bottom-style:solid; 
+    border-bottom-color:rgb(224, 224, 224); 
+    border-bottom-width:1px;
+    padding-bottom: 40px;
+    color:var(--gray2);
+}
+
+.uptown{
+        border-right: 4px solid var(--main-blue); 
+        width: 0px; 
+        height: 135px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 80px;
+        margin-bottom: 100px;
+    }
+.container{
+    width: 900px;
+    /* background-color: aqua; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.icon1{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+h2{
+    text-align: center;
+    margin-top: 40px;
+    font-weight: 400;
+}
+p{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    font-size: 16px;
+    color:var(--gray4);
+}
+
+.cards{
+    width: 100%;
+}
+.card{
+    display: flex;
+    justify-content: space-between;
+    margin-top:40px;
+}
+h3{
+    background-color: #646464;
+    color: #fff;
+    position: absolute;
+    bottom: 5px;
+    width: 280px;
+    height: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h3:hover{
+    background-color:var(--main-blue);
+    color: #fff;
+    position: absolute;
+    bottom: 5px;
+    width: 280px;
+    height: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: ease-out 0.4s;
+}
+.image{
+    position: relative;
+    filter: drop-shadow(0px 3px 5px rgba(42, 42, 42, 0.1));
+}
+footer{
+    height: 200px;
+    color: #fff;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:var(--main-blue);
+    margin-top: 100px;
+}

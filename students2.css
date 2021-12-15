@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+:root {
+    --main-blue: #192788;
+    --yellow: #F5B83D;
+    --sub-blue: #2550A9;
+    --gray1:#333333;
+    --gray2:#454545;
+    --gray3:#787878;
+    --gray4:#8c8c8c;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.back{
+    color:var(--gray1);
+}
+nav{
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 85px;
+}
+nav .id{
+    color:var(--gray1);
+    font-weight: 600;
+    border-bottom-style:solid; 
+    border-bottom-color:#5a5a5a; 
+    border-bottom-width:3px;
+    padding-bottom: 10px;
+}
+nav .md{
+    color:var(--gray3);
+    font-weight: 600;
+}
+
+a {
+    text-decoration: none;
+}
+
+header{
+    margin: 80px 80px;
+}
+.button{
+    display: flex;
+    justify-content: space-between;
+
+}
+h1{
+    text-align: center;
+    border-bottom-style:solid; 
+    border-bottom-color:rgb(224, 224, 224); 
+    border-bottom-width:1px;
+    padding-bottom: 40px;
+    color:var(--gray2);
+}
+.container{
+    width: 1280px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: antiquewhite; */
+}
+.cards{
+    width: 1280px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.card{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 1px 4px 40px rgba(0, 0, 0, 0.13);
+}
+footer{
+    height: 200px;
+    color: #fff;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:var(--main-blue);
+    margin-top: 100px;
+}

@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.back{
+    color:#333333 ;
+}
+
+a {
+    text-decoration: none;
+}
+
+header{
+    margin: 80px 80px;
+}
+.button{
+    display: flex;
+    justify-content: space-between;
+
+}
+h1{
+    text-align: center;
+    border-bottom-style:solid; 
+    border-bottom-color:rgb(224, 224, 224); 
+    border-bottom-width:1px;
+    padding-bottom: 40px;
+    color: rgb(69, 69, 69);
+}
+.container{
+    width: 900px;
+    /* background-color: aqua; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+h2{
+    font-size: 42px;
+    color: #192788;
+}
+.search{
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: chocolate;
+}
+#input1{
+    font-size: 20px;
+    width: 300px;
+    height: 50px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 4px solid #192788;
+    position: relative;
+}
+#input2{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 300px;
+    /* border-top: none;
+    border-left: none;
+    border-right: none; */
+    /* border-bottom: 4px solid#192788; */
+}
+.uptown{
+    border-right: 4px solid #192788; 
+    width: 0px; 
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+h3{
+    font-size: 42px;
+    color: #192788;
+    text-align: center;
+}
+.icons{
+    width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    /* background-color: chocolate; */
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 65px;
+}
+.icon2{
+    margin-right: 30px;
+
+}
+.collections{
+    width: 670px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.collection{
+    display: flex;
+    justify-content: space-between;
+    filter: drop-shadow(0px 3px 5px rgba(42, 42, 42, 0.1));
+    margin-bottom: 30px;
+
+}
+.more{
+   border: solid 4px #192788;
+   width: 320px;
+   height: 90px;
+   color: #192788;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   font-size: 24px;
+   font-weight:600;
+   text-align: center;
+   padding: 25px 75px;
+   margin-top: 140px;
+   margin-bottom: 140px;
+   /* background-color: chocolate; */
+
+}
+.student{
+    font-size: 30px;
+    font-weight: 700;
+    color: #192788;
+    position: absolute;
+    bottom: 1080px;
+}
+.work{
+    font-size: 30px;
+    font-weight: 700;
+    color: #192788;
+    position: absolute;
+    bottom: 1080px;
+    right: 60px;
+}
+.professor{
+    font-size: 30px;
+    font-weight: 700;
+    color: #192788;
+    position: absolute;
+    bottom: 720px;
+}
+.department{
+    font-size: 30px;
+    font-weight: 700;
+    color: #192788;
+    position: absolute;
+    bottom: 720px;
+    right: 0px;
+}
+footer{
+    height: 200px;
+    color: #fff;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#192788;
+    margin-top: 100px;
+}
+

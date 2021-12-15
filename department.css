@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+:root {
+    --main-blue: #192788;
+    --yellow: #F5B83D;
+    --sub-blue: #2550A9;
+    --gray1:#333333;
+    --gray2:#454545;
+    --gray3:#787878;
+    --gray4:#8c8c8c;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.back{
+    color: var(--gray1);
+}
+.whole{
+    position: relative;
+
+}
+.icon1{
+    position: absolute;
+    right: 0px;
+    top: 250px;
+
+}
+.icon2{
+    position: absolute;
+    right: 0px;
+    bottom: 700px;
+
+}
+.icon3{
+    position: absolute;
+    bottom: 100px;
+
+}
+.box1{
+    position: absolute;
+    width:50%;
+    height: 500px;
+    background-color: #F4F4F4;
+    top:1510px;
+    z-index: -1;
+}
+.box2{
+    position: absolute;
+    width:50%;
+    height: 500px;
+    background-color: #F4F4F4;
+    bottom: 780px;
+    right: 0px;
+    z-index: -1;
+
+}
+
+.container{
+    width: 900px;
+    /* background-color: blueviolet; */
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+.intro{
+    position: relative;
+    top: -50px;
+    left: 50px;
+}
+a {
+    text-decoration: none;
+}
+header{
+    margin: 80px 80px;
+}
+.button{
+    display: flex;
+    justify-content: space-between;
+
+
+}
+h1{
+    text-align: center;
+    border-bottom-style:solid; 
+    border-bottom-color:rgb(224, 224, 224); 
+    border-bottom-width:1px;
+    padding-bottom: 40px;
+    color: var(--gray1);
+}
+.hero{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    
+   
+}
+/* .intro{
+    margin-left: 300px;
+    position: absolute;
+    bottom: 20px;
+} */
+h2{
+    color: var(--main-blue);
+    font-size: 36px;
+}
+p{
+    color: var(--gray4);
+    width: 710px;
+}
+h3{
+    color: var(--gray1);
+    font-size: 18px;
+    margin-right: 20px;
+}
+.vision{
+    display: flex;
+    flex: left;
+    margin-top:60px;
+}
+.aim{
+    width: 900px;
+    display: block;
+    margin-right: auto;
+    
+    margin-top: 120px;
+    display: flex;
+    flex: left;
+    /* background-color: darkorange; */
+   
+}
+.text{
+    margin-left: 40px;
+    margin-top: 140px;
+
+}
+h4{
+    font-size: 20px;
+    color: var(--gray1);
+}
+.sub-title{
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.p1{
+    width: 400px;
+    font-size: 16px;
+    /* font-weight: 500; */
+    color: var(--gray4);
+}
+.media{
+    width: 1180px;
+    height: 500px;
+    margin-top: 120px;
+    margin-left: -280px;
+    background-color: #F4F4F4;
+    /* display: flex; */
+    /* flex:right; */
+    position: relative;
+   
+}
+.industrial{
+    width: 1180px;
+    height: 500px;
+    margin-top: 120px;
+    background-color: #F4F4F4;
+    display: flex;
+    flex:left;
+    position:relative;
+
+}
+.picture1{
+    position: absolute;
+    top: -10px;
+    right: 50px;
+ }
+   
+.picture2{
+     position: absolute;
+     top: -80px;
+     
+  }
+.group{
+    padding: 90px;
+}
+.group1{
+    position: absolute;
+    padding: 90px;
+    right: 0px;
+}
+.name{
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--gray1);
+}
+.sub-name{
+    font-size: 16px;
+    color: var(--gray3);
+    margin-top: 34px;
+    font-weight: 500;
+}
+.description{
+    width: 450px;
+    color: var(--gray3);
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+.more{
+    margin-top: 40px;
+    background-color:var(--main-blue);
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 20px 60px;
+    border-radius: 40px;
+}
+
+
+.awards{
+    width: 900px;
+    display: block;
+    margin-right: auto;
+    margin-top: 120px;
+    
+    justify-content: space-between;
+}
+footer{
+    height: 200px;
+    color: #fff;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:var(--main-blue);
+    margin-top: 120px;
+}
+h5{
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: var(--gray1);
+}
+
+.awards{
+    width: 900px;
+    /* background-color: darkseagreen; */
+    
+    
+}
+.award{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    margin-top: 30px;
+}
+
